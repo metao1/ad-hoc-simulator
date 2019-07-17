@@ -2,4 +2,4 @@
 /out
 *.iml
 .idea
-target
+server-discovery/target
