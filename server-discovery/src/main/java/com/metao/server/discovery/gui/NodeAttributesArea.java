@@ -21,7 +21,7 @@ public class NodeAttributesArea extends JPanel implements GNodeListener, NodeCon
     private JComboBox nodeSelectorComboBox = new JComboBox();
     private JSpinner nodeRangeSpinner = new JSpinner(
             new SpinnerNumberModel(
-                    0, -19, 1000,
+                    0, -29, 1000,
                     20));
     private JSpinner XSpinner = new JSpinner(
             new SpinnerNumberModel(

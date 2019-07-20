@@ -57,7 +57,8 @@ public class ImageFactory {
             ghostedNodeImg_ = getTransparentImg(nodeImg_, 0.5f);
 
         } catch (Exception e) {
-            Utilities.showError("Failed to load images. Please file a bug report");
+            Utilities.showError("Failed to load images. Please file a bug report:"+ e.getMessage());
+            e.printStackTrace();
             System.exit(1);
         }
 
@@ -115,8 +116,8 @@ public class ImageFactory {
         g.setFont(Defaults.NODEID_FONT);
         FontMetrics fm = g.getFontMetrics();
         g.drawString(id,
-                r.x + 20 + r.width / 2 - fm.stringWidth(id) / 2,
-                r.y + r.height / 2 + fm.getAscent() / 2 - 1);
+                r.x + r.width / 2 - fm.stringWidth(id) / 2,
+                r.y + r.height / 2 + fm.getAscent() / 2 );
 
 
     }

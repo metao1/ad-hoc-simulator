@@ -44,7 +44,7 @@ public class ServerDiscovery {
         SimEngine s = new SimEngine();
 
         // Make the time keeping component of the simulator engine viewable to serverDiscoveryEvents
-        ServerDiscoveryEvent.setSimTimeKeeper((SimulationTimeKeeper) s);
+        ServerDiscoveryEvent.setSimTimeKeeper(s);
 
         // Name the simulator engine as an input consumer
         InputHandler.addInputConsumer(s);

@@ -5,10 +5,10 @@ import java.awt.*;
 
 public class Defaults {
     public static final boolean DEBUG_ENABLED = false;
-    public static final int X = 100;
-    public static final int Y = 100;
+    public static final int X = 0;
+    public static final int Y = -110;
     public static final boolean IS_PROMISCUOUS = false;
-    public static final int RANGE = 350;
+    public static final int RANGE = 150;
     public static final FontUIResource FONT = new FontUIResource(new Font("tahoma", Font.PLAIN, 12));
     public static final FontUIResource BOLDFACED_FONT = new FontUIResource(new Font("tahoma", Font.BOLD, 12));
     public static final Color NARRMSG_COLOR = new Color(0, 0, 0);

@@ -378,7 +378,8 @@ public class SimEngine implements InputConsumer, SimulationTimeKeeper, NodeInspe
     }
 
     private boolean canCommunicate(String OriginID, String DestinationID) {
-        NodeAttributes originAtt = store.getNodeAttributes(OriginID);
+        return true;
+       /* NodeAttributes originAtt = store.getNodeAttributes(OriginID);
         NodeAttributes destinationAtt = store.getNodeAttributes(DestinationID);
 
         //Nodes that don't exist can't communicate; return false.
@@ -391,8 +392,8 @@ public class SimEngine implements InputConsumer, SimulationTimeKeeper, NodeInspe
         double distance = point1.distance(destinationAtt.x, destinationAtt.y);
         if (distance > originAtt.range || distance > destinationAtt.range) {
             return false;
-        } else
-            return true;
+        } elseq
+            return true;*/
     }
 
     private void clearSim() {
