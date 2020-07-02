@@ -9,5 +9,5 @@ This table helps like a map of how to reach to each node in the system. Regular 
 
 Watch video for more information.
 
-[![Watch the video](screenshot.png)](https://www.youtube.com/watch?v=GeJ2hzihFaM)
+[![Watch the video](screenshot.png)](https://github.com/metao1/server-discovery/raw/master/video.gif)
 [![Watch the video](screenshot.png)](https://www.youtube.com/watch?v=GeJ2hzihFaM)
