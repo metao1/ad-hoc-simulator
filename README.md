@@ -1,5 +1,5 @@
 # What is the Java Server Discovery?
-Server Discovery is a Java Network Simulator for ad-hoc and distributed and point-to-point message networks. 
+Server Discovery is a Java Network Simulator for ad-hoc and distributed networks. 
 With Server Discovery you can create simulators easily just by clicking on a GUI. Each node represents a server instance. 
 Each server then broadcasts a broadcasting message in the open air repeatedly when created. 
 Every node in the simulator has a range defined that describes reachability of it, like a physical antenna. 
